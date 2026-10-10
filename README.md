@@ -1,16 +1,67 @@
-# React + Vite
+# Garment Material Stock Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A web-based stock management system developed for managing garment materials efficiently across multiple storage locations.
 
-Currently, two official plugins are available:
+## User Roles
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Administrator
+- Store Manager
+- Production Officer
 
-## React Compiler
+## Main Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Administrator
+- Login
+- Dashboard
+- User Management
+- Material Management
+- Category Management
+- Storage Location Management
+- View Current Stock
+- Manage Stock Adjustment Requests
+- Transaction History
+- Reports
+- AI Assistant
 
-## Expanding the ESLint configuration
+### Store Manager
+- Login
+- Dashboard
+- View Current Stock
+- Manage Materials
+- Manage Categories
+- Stock Transactions
+- Manage Material Requests
+- Stock Transfer
+- Request Stock Adjustment
+- Transaction History
+- Reports
+- AI Assistant
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Production Officer
+- Login
+- Dashboard
+- View Current Stock
+- Request Materials
+- AI Assistant
+
+## Technologies Used
+
+### Frontend
+- React.js
+- Tailwind CSS
+- Poppins Font
+- Google Material Icons
+
+### Backend
+- Node.js
+- Express.js
+
+### Database
+- MySQL
+
+### Additional Technologies
+- JWT Authentication
+- Nodemailer
+- Chart.js
+- OpenRouter API
+
